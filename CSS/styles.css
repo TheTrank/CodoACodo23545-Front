@@ -133,3 +133,57 @@ h6 {
     color: whitesmoke;
     padding: 16px;
 }
+
+/* Form */
+
+.form .title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.form .title h3 {
+    font-size: 100%;
+}
+
+.underline {
+    text-decoration: underline dotted;
+}
+
+.form .formContainer {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .formContainer .first-last-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form .formContainer .input-name {
+    width: 48%;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form .formContainer .input-about {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.form .formContainer .btn-submit {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 0;
+    background-color: rgb(119, 177, 33);
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
