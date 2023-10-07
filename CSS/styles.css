@@ -115,3 +115,21 @@ h6 {
 .card p {
     font-size: 0.8rem;
 }
+
+/* Info de la ubicación */
+
+.locationContainer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.locationContainer img {
+    width: 45%;
+    margin: 0;
+}
+
+.aboutLocation {
+    background-color: rgba(53,58,64,255);
+    color: whitesmoke;
+    padding: 16px;
+}
