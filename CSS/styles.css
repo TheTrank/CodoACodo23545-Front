@@ -212,3 +212,34 @@ h6 {
 
 /* Media Queries */
 
+@media(max-width: 768px) {
+    .conferenceInfo .conferenceContent
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .location .locationContainer img {
+        width: 50%;
+    }
+
+    .locationContainer .aboutLocation {
+        display: block;
+        text-align: center !important;
+    }
+
+    .formContainer .first-last-name {
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .first-last-name .input-name {
+        width: 100%;
+    }
+
+    .footer .footerContainer {
+        flex-direction: column;
+    }
+}
