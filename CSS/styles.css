@@ -20,6 +20,8 @@
     color: green;
 }
 
+/* Info principal de la conferencia*/
+
 .conferenceInfo {
     height: 675px;
     color: white;
@@ -49,3 +51,67 @@
     margin: 0 0 20% 0;
 }
 
+/* Sección de Oradores/Speakers */
+
+.speakersInfo .title {
+    text-align: center;
+}
+
+h6 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.speakersCards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.speakersCards .card {
+    min-width: 350px;
+    width: 30%;
+}
+
+.specialty {
+    display: flex;
+}
+
+.specialty h6 {
+    font-size: small;
+    font-weight: bolder;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.specialty .yellowCategory {
+    background-color: rgb(248, 191, 33);
+    border-radius: 5px;
+}
+.specialty .cyanCategory {
+    background-color: rgb(33, 151, 248);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.specialty .greyCategory {
+    background-color: rgb(90, 92, 94);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.specialty .redCategory {
+    background-color: rgb(226, 38, 38);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.card h5 {
+    font-weight: bold;
+    padding: 1px;
+}
+
+.card p {
+    font-size: 0.8rem;
+}
